@@ -1,0 +1,16 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dateUtils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "simple-date-utils": "dateUtils.js",
+    "date-utils": "./bin/dateUtils.cmd"
+  }
+}
