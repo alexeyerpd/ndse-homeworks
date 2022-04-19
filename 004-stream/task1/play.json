@@ -1,0 +1,24 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "result": "win"
+    },
+    {
+      "id": 2,
+      "result": "win"
+    },
+    {
+      "id": 3,
+      "result": "lose"
+    },
+    {
+      "id": 4,
+      "result": "lose"
+    },
+    {
+      "id": 5,
+      "result": "lose"
+    }
+  ]
+}
