@@ -1,0 +1,7 @@
+docker run --name first_node -it -d -v D:\Prev_disk_d\Netology_frontend\ndse-homeworks\009-docker\task3\data:/var/first/data node:15.14 
+docker run --name second_node -it -d -v D:\Prev_disk_d\Netology_frontend\ndse-homeworks\009-docker\task3\data:/var/second/data node:15.14 
+
+docker exec -it first_node bash 
+cd /var/first/data/
+touch index.js
+docker exec -it second_node bash 

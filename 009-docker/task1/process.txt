@@ -1,0 +1,7 @@
+docker run --name pinger -it busybox ping -c 7 www.netology.ru
+docker ps -a
+docker logs -t pinger
+docker stop pinger
+docker start pinger
+docker ps -a
+пока пытался понять, можно ли подключиться к остановленному конетйнеру вызвал его 6 раз =) и сделал 42 запроса

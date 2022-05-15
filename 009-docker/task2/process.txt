@@ -1,0 +1,5 @@
+docker run --name mynode --env NAME="Alexey" --env SURNAME="P" -it node:15.14 sh
+echo "Привет, $NAME $SURNAME" (Не знаю. правильно ли я понял задание, т.к. файл мы подключаем в след задании, через ноду в лоб так не вывести. Если сразу при run писать sh text, то значения переменных не выводятся)
+docker stop mynode
+docker rm mynode
+docker rmi node:15.14
